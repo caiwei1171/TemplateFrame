@@ -1,0 +1,103 @@
+import Vue from 'vue'
+import {
+  Button,
+  Form,
+  FormItem,
+  Input,
+  Message,
+  Container,
+  Header,
+  Aside,
+  Main,
+  Menu,
+  Submenu,
+  MenuItem,
+  MenuItemGroup,
+  Breadcrumb,
+  BreadcrumbItem,
+  Card,
+  Row,
+  Col,
+  Table,
+  TableColumn,
+  Tooltip,
+  Pagination,
+  Dialog,
+  Upload,
+  Select,
+  Option,
+  OptionGroup,
+  Image,
+  Popover,
+  Switch,
+  Cascader,
+  DatePicker,
+  Radio,
+  Alert,
+  MessageBox,
+  Tag,
+  Tree,
+  Checkbox,
+  Dropdown,
+  DropdownMenu,
+  DropdownItem,
+  Avatar,
+  Tabs,
+  TabPane,
+  TimePicker,
+  Steps,
+  Step,
+  ButtonGroup,
+  Loading
+} from 'element-ui'
+
+Vue.use(Loading)
+Vue.use(ButtonGroup)
+Vue.use(Step)
+Vue.use(Steps)
+Vue.use(TimePicker)
+Vue.use(TabPane)
+Vue.use(Tabs)
+Vue.use(Avatar)
+Vue.use(DropdownItem)
+Vue.use(DropdownMenu)
+Vue.use(Dropdown)
+Vue.use(Checkbox)
+Vue.use(Tree)
+Vue.use(Tag)
+Vue.use(Alert)
+Vue.use(Button)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Card)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Tooltip)
+Vue.use(Pagination)
+Vue.use(Dialog)
+Vue.use(Upload)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(OptionGroup)
+Vue.use(Image)
+Vue.use(Popover)
+Vue.use(Switch)
+Vue.use(Cascader)
+Vue.use(DatePicker)
+Vue.use(Radio)
+
+Vue.prototype.$message = Message  
+Vue.prototype.$MessageBox = MessageBox
