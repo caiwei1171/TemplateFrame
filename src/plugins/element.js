@@ -48,9 +48,11 @@ import {
   Steps,
   Step,
   ButtonGroup,
-  Loading
+  Loading,
+  Scrollbar
 } from 'element-ui'
 
+Vue.use(Scrollbar)
 Vue.use(Loading)
 Vue.use(ButtonGroup)
 Vue.use(Step)
